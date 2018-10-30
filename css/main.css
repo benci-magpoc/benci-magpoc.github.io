@@ -154,6 +154,10 @@ main {
   border-radius: 10px;
 }
 
+.project__cards .project__img {
+  max-height: 300px;
+}
+
 .project__column {
   position: relative;
   max-width: 50%;
