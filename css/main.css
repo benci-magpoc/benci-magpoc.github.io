@@ -110,8 +110,18 @@ main {
 }
 
 .hero {
-  max-width: 100%
+  position: relative;
 }
+
+.hero .hero-img {
+  min-height: 600px;
+  background-image: url('../images/collaboration-image.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container-fluid {
     width: 100%;
     padding-right: 15px;
@@ -152,26 +162,30 @@ main {
   min-width: 0;
   border: 2px solid rgba(135, 134, 158, 0.32);
   border-radius: 10px;
+  padding: 0px 5px 0px;
 }
 
 .project__cards .project__img {
-  max-height: 300px;
+  width: 100%
+  display: block;
+  margin: auto;
+  padding-top: 10px;
 }
 
 .project__column {
   position: relative;
-  max-width: 50%;
+  max-width: 33%;
   padding: 0px 10px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
-
+/*
 .project__img {
   vertical-align: middle;
   border-style: none;
   border-radius: 4px;
-}
+} */
 
 .project__body {
   flex: auto;
