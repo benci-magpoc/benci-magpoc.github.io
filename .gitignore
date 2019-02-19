@@ -1,8 +1,0 @@
-# Ignore package-lock.json
-package-lock.json
-
-# Ignore config.eslintrc
-config.eslintrc
-
-# Ignore node_module folder
-node_modules/
