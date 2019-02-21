@@ -59,6 +59,7 @@ p {
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
+  font-family: sans-serif;
 }
 
 .header__logo {
@@ -75,14 +76,17 @@ p {
 }
 
 .header__title {
-  font-weight: 300;
+  font-weight: 700;
   font-size: 4em;
   text-align: right;
+  padding-top: 5px;
   color: #212121;
 }
 
 .header__subtitle {
+  font-weight: 300;
   font-size: 3em;
+  padding-bottom: 5px;
   text-align: right;
   color: #212121;
 }
@@ -128,6 +132,7 @@ main {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    font-family: sans-serif;
 }
 .img-fluid {
   max-width: 100%;

@@ -34,7 +34,7 @@
     }
 
   .header__title {
-      font-weight: 300;
+      font-weight: 700;
       font-size: 2em;
       text-align: right;
       color: #212121;
@@ -112,7 +112,7 @@
     }
 
   .header__title {
-      font-weight: 300;
+      font-weight: 700;
       font-size: 2.5em;
       text-align: right;
       color: #212121;
